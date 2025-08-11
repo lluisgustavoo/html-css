@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Flexivel</title>
+</head>
+<body>
+    <h1>Estou deixando uma imagem de uma paisagem muito bonita</h1>
+    <picture>
+        <source media="(max-width:950px )" srcset="paisagem-p.jpeg" type="image/jpeg">
+        <source media="(max-width:2050px )" srcset="paisagem-m.jpeg" type="image/jpeg">
+        <img src="paisagem-g.jpeg" alt="imagem flexivel">
+    </picture>
+</body>
+</html>
